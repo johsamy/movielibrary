@@ -1,0 +1,10 @@
+<template>
+      <v-alert
+        dense
+        text
+        type="error"
+        class="pa-2"
+      >
+        <slot></slot>
+      </v-alert>
+</template>
